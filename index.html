@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="fbstyle.css" />
+    <title>Log in to Facebook</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <h1>facebook</h1>
+      </div>
+      <div class="login_form_container">
+        <div class="loginform">
+          <h3 id="logintofb">Log in to Facebook</h3>
+        </div>
+        <form>
+          <div class="credential">
+            <input
+              type="text,number"
+              name="emaiilorphone"
+              id="emailorphone"
+              placeholder="Email address"
+            />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+            <div class="button">
+              <input type="submit" value="Log in" id="login_btn" />
+            </div>
+          </div>
+        </form>
+        <div class="links">
+          <a id="forgot"
+            href="https://www.facebook.com/recover/initiate/?ars=facebook_login"
+            >Forgotten account? .</a
+          >
+          <a id="sign_up" href="https://en-gb.facebook.com/r.php?locale=en_GB&display=page"
+            >Sign up for Facebook</a
+          >
+        </div>
+      </div>
+    </div>
+      <footer class="footer_content">
+        <div class="lang">
+          <p id="english">English (UK)</p>
+          <a href="https://bn-in.facebook.com/login.php/" class="space_lang">বাংলা</a>
+          <a href="https://hi-in.facebook.com/login.php/" class="space_lang">हिन्दी</a>
+          <a href="https://ur-pk.facebook.com/login.php/" class="space_lang">اردو</a>
+          <a href="https://ne-np.facebook.com/login.php/" class="space_lang">नेपाली</a>
+          <a href="https://or-in.facebook.com/login.php/" class="space_lang">ଓଡ଼ିଆ</a>
+          <a href="https://es-la.facebook.com/login.php/" class="space_lang">Español</a>
+          <a href="https://pt-br.facebook.com/login.php/" class="space_lang">Português (Brasil)</a>
+          <a href="https://fr-fr.facebook.com/login.php/" class="space_lang">Français (France)</a>
+          <a href="https://de-de.facebook.com/login.php/" class="space_lang">Deutsch</a>
+          <a href="https://it-it.facebook.com/login.php/" class="space_lang">Italiano</a>
+          <button id="button_plus">+</button>
+          
+        </div>
+        <hr id="hr_hr" />
+        <div class="services">
+          <a href="https://en-gb.facebook.com/reg/" class="space_lang">Sign Up</a>
+          <a href="https://en-gb.facebook.com/login/" class="space_lang">Log in</a>
+          <a href="https://messenger.com/" class="space_lang">Messenger</a>
+          <a href="https://en-gb.facebook.com/lite/" class="space_lang">Facebook Lite</a>
+          <a href="https://en-gb.facebook.com/watch/" class="space_lang">Watch</a>
+          <a href="https://en-gb.facebook.com/places/" class="space_lang">Places</a>
+          <a href="https://en-gb.facebook.com/games/" class="space_lang">Games</a>
+          <a href="https://en-gb.facebook.com/marketplace/" class="space_lang">Marketplace</a>
+          <a href="https://pay.facebook.com/" class="space_lang">Facebook Pay</a>
+          <a href="https://www.oculus.com/" class="space_lang">Oculus</a>
+          <a href="https://portal.facebook.com/" class="space_lang">Portal</a>
+          <a href="https://www.instagram.com/" class="space_lang">Instagram</a>
+          <a href="https://www.bulletin.com/" class="space_lang">Bulletin</a>
+          <a href="https://en-gb.facebook.com/local/lists/245019872666104/" class="space_lang"
+            >Local</a
+          >
+          <a href="https://en-gb.facebook.com/fundraisers/" class="space_lang">Fundraisers</a>
+          <a href="https://en-gb.facebook.com/biz/directory/" class="space_lang">Services</a>
+          <a
+            href="https://en-gb.facebook.com/votinginformationcenter/?entry_point=c2l0ZQ%3D%3D"
+            class="space_lang">Voting Information Centre</a
+          >
+          <a href="https://en-gb.facebook.com/groups/explore/" class="space_lang">Groups</a>
+          <a href="https://about.facebook.com/" class="space_lang">About</a>
+          <a
+            href="https://en-gb.facebook.com/ad_campaign/landing.php?placement=pflo&campaign_id=402047449186&nav_source=unknown&extra_1=auto"
+            class="space_lang">Create ad</a
+          >
+          <a
+            href="https://en-gb.facebook.com/pages/create/?ref_type=site_footer"
+            class="space_lang">Create Page</a
+          >
+          <a href="https://developers.facebook.com/?ref=pf" class="space_lang">Developers</a>
+          <a href="https://en-gb.facebook.com/careers/?ref=pf" class="space_lang">Careers</a>
+          <a
+            href="https://en-gb.facebook.com/privacy/policy/?entry_point=facebook_page_footer"
+            class="space_lang">Privacy</a
+          >
+          <a href="https://en-gb.facebook.com/policies/cookies/" class="space_lang">Cookies</a>
+          <a href="https://www.facebook.com/help/568137493302217" class="space_lang">AdChoices</a>
+          <a href="https://en-gb.facebook.com/policies?ref=pf" class="space_lang">Terms</a>
+          <a href="https://en-gb.facebook.com/help/?ref=pf" class="space_lang">Help</a>
+          <a href="https://en-gb.facebook.com/login.php/help/637205020878504"
+          class="space_lang">Contact uploading and non-usersSettings</a
+          >
+          <p id="meta" class="space_lang">Meta © 2022</p>
+        </div>
+      </footer>
+    <script src="vanilla-tilt.js" type="text/javascript"></script>
+    <script>
+      VanillaTilt.init(document.querySelector(".login_form_container"), {
+        max: 25,
+        speed: 400,
+      });
+    </script>
+  </body>
+</html>
